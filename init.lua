@@ -7,9 +7,6 @@ DEFAULT_LAYOUT = "mobile" -- on android it's forced to "mobile", check code bell
 Services = {
   website = "http://otclient.ovh", -- currently not used
   updater = "http://otclient.ovh/api/updater.php"
-  
-  
-
 
 }
 

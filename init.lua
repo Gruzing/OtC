@@ -1,16 +1,16 @@
 -- CONFIG
 APP_NAME = "otclientv8"  -- important, change it, it's name for config dir and files in appdata
 APP_VERSION = 1343       -- client version for updater and login to identify outdated client
-DEFAULT_LAYOUT = "retro" -- on android it's forced to "mobile", check code bellow
+DEFAULT_LAYOUT = "mobile" -- on android it's forced to "mobile", check code bellow
 
 -- If you don't use updater or other service, set it to updater = ""
 Services = {
   website = "http://otclient.ovh", -- currently not used
-  updater = "http://otclient.ovh/api/updater.php",
-  stats = "",
-  crash = "http://otclient.ovh/api/crash.php",
-  feedback = "http://otclient.ovh/api/feedback.php",
-  status = "http://otclient.ovh/api/status.php"
+  updater = "http://otclient.ovh/api/updater.php"
+  
+  
+
+
 }
 
 -- Servers accept http login url, websocket login url or ip:port:version
